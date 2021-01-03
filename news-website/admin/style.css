@@ -1,0 +1,250 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgba(229, 229, 229, 1);
+}
+i{
+    color:black;
+}
+a{
+    text-decoration: none;
+}
+.admin_logo img{
+    width:100%;
+}
+.menu1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+.login{
+    width:20%;
+    margin: auto;
+}
+.container_login{
+    width:30%;
+    margin: auto;
+    
+}
+.login_container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.login_form,.container_form{
+    background-color: white;
+    padding:30px;
+    margin:10px 0px;
+}
+.text{
+    margin:8px 0px;
+    width:100%;
+    padding:4px;
+    border:1px solid grey;
+    
+}
+
+.submit{
+    margin:8px 0px;
+    padding:3px 10px;
+    border-radius: 4px;;
+    border: none;
+    background-color: rgba(1, 58, 89, 1);
+    color:white;
+}
+
+.login_form label,.container_form label{
+    font-weight: bold;
+    font-size: 13px;
+    margin:8px 0px;
+}
+.login p{
+    font-size:20px;
+    margin-top: 30px;
+}
+.sub_menu1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: auto;
+
+}
+
+.all_posts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px 0px;
+
+}
+.all_posts p,.all_posts div{
+    margin:10px;
+}
+.menu1{
+    background-color:  rgba(1, 58, 89, 1);
+    padding: 5px 0px;
+}
+ul{
+    display: flex;
+    justify-content:left;
+    padding:5px 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+li{
+    list-style:none;
+    margin:0px 20px 0px 0px;
+}
+li a{
+    text-decoration: none;
+    color: rgba(1, 58, 89, 1);
+    font-size: 15px;
+    font-weight: bold;
+}
+@media screen and (max-width:843px){
+    .container_form{
+        padding:20px;
+    }
+    
+    .login{
+        width:40%;
+        margin: auto;
+    }
+    .container_login{
+        width:40%;
+    }
+}
+@media screen and (max-width:657px){
+    .container_login{
+        width:60%;
+    }
+}
+
+@media screen and (max-width:574px){
+    .nav_links{
+        font-size: 12px;
+    }
+    .nav_link{
+        padding:1px 0px;
+    }
+    .nav_link li{
+        padding:2px 3px;
+    }
+    .login{
+        width:60%;
+        margin: auto;
+    }
+    .all_posts{
+        flex-direction: column;
+    }
+    .container_login{
+        width:80%;
+    }
+    .sub_menu1{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:370px){
+    
+    .login{
+        width:80%;
+        margin: auto;
+    }
+    .login_form{
+        padding: 10%;
+    }
+    
+    
+}
+
+@media screen and (max-width:785px){
+    .table_data{
+        padding:8px 3px;
+        font-size: 8px;
+    }
+    .table_heading{
+        padding:8px 3px;
+        font-size:8px;
+    }
+    .pagination li a{
+        font-size: 10px;
+    }
+}
+.logout a{
+    text-transform: uppercase;
+}
+.logout a:hover{
+    border-bottom: 1px solid white ;
+}
+.menu2
+{
+    background-color:white;
+}
+.sub_menu2{
+    width:80%;
+    margin: auto;
+}
+.pagination .active {
+    background-color: rgba(1, 58, 89, 1);
+}
+
+.all_posts p,.add_post{
+    font-size: 30px;
+    color: rgba(1, 58, 89, 1);
+}
+.button a{
+    padding:5px 10px;
+    background-color: rgba(1, 58, 89, 1);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.post_content,.add_post{
+    width:80%;
+    margin: auto;
+    padding:20px 0px ;
+}
+.post_table{
+    width:100%;
+    text-align: center;
+}
+td,th{
+    padding:10px 15px;
+}
+th{
+    color:white;
+    background-color: rgba(1, 58, 89, 1);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+.pagination ul{
+        display: flex;
+        justify-content: center;
+        padding:3px 0px;
+        align-items: center;
+        margin:20px 0px;
+}
+.pagination li{
+    list-style:none;
+    padding:5px 8px;
+    background-color: rgba(1, 58, 89, 0.507);
+    margin:0px 2px;
+}
+.pagination li a{
+    text-decoration: none;
+    color: white;
+}
+.post_table{
+    width:100%;
+    table-layout:auto;
+}
