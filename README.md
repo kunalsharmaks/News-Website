@@ -1,6 +1,2 @@
 # News-Website
 
-
-
-
-
